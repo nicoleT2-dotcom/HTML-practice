@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>tooltip practice</title>
+  <style>
+  
+    .relative-div{
+      position: relative;
+      background-color:rgb(255, 5, 184);
+      width:400px;
+      height:400px;
+      display:inline-block;
+    
+
+    }
+
+    .absolute-div{
+      border-color: rgb(55, 58, 58);
+      border:solid;
+      position: absolute;
+      bottom:-70px;
+      left:50px;
+      background-color:white;
+  
+    }
+
+
+
+    .info-div{
+      display:inline-block;
+
+    }
+
+    .image{
+      height:45px;
+      width:45px;
+      object-fit: cover;
+      border-radius:23px;
+    }
+    
+
+    .name{
+      font-family:Arial;
+      font-weight:bold;
+      font-size:15px;
+
+    }
+
+    .number{
+      font-family:Arial;
+      font-size:14px ;
+      color:rgb(101, 98, 98);
+
+    }
+
+
+    .parent-div{
+      margin-left:500px;
+      margin-top:-400px;
+      position:relative;
+      background-color: rgb(241, 15, 192);
+      width:350px;
+      height:30px;
+    }
+
+
+    .video-link{
+      text-decoration:none; 
+    }
+
+    .video-title{
+      color:black;
+    }
+
+    .ab-div{
+      font-weight:bold;
+      
+
+    }
+    
+ 
+    
+    .ab-div:hover{
+      position:absolute;
+      bottom:-30px;
+      right:-230px;
+      background-color:rgb(236, 239, 241);
+      border-style:solid
+    }
+
+    
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+
+<div class="relative-div">
+
+      <div class="absolute-div">
+
+        <img class="image"src="channel-pictures/channel-1.jpeg">
+
+      <div class="info-div">
+
+       <p class="name">Marques Brownlee</p>
+
+      <p class="number">15M  subscribers</p>
+
+      </div>  
+
+    </div>
+
+</div>
+    
+
+
+
+<div class="parent-div">
+  
+  <a class="video-link"  href="https://www.youtube.com/watch?v=FgjPQQeTh1w" target="blank">
+    <p class="video-title">
+      Crazy Tik Toks Moments Before DISASTER
+    </p>
+  </a>
+  <div class="ab-div">
+  <div>Crazy Tik Toks Moments Before DISASTER</div>
+  </div>
+    </div>
+
+
+
+
+
+
+
+
+  <p class="video-author">SSSniperWolf</p>
+  
+  <p class="video-stats">12M views &#183 1 year ago</p>
+  </div>
+  </div>
+    
+  </div>
+
+
+  
+</body>
+</html>
